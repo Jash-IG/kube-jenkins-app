@@ -24,4 +24,5 @@ pipeline{
             bat 'docker build -t kube-jenkins-app:%BUILD_NUMBER% .'
             }
         }
+    }
 }
